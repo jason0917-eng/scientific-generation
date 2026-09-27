@@ -1,0 +1,4 @@
+interface:
+  display_name: "Methodology 科研架构图"
+  short_description: "检索完整方法，参照用户范例直接生成科研论文位图，核对结构与视觉表达"
+  default_prompt: "使用 $methodology-to-figure，根据我的 Methodology 或 Excel 检索完整原文，上网参考并选定适合本文的布局；先完成科学逻辑、布局、最多5个主题色、历史重复与创意师方案验证，通过后才生成科研论文 PNG，再核查图片是否忠实执行方案。验证前不生成草图，全程不制作或转换 SVG。"
